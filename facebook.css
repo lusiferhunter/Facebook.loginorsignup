@@ -1,0 +1,179 @@
+*{
+   margin:0;
+   padding:0;
+   font-family:sans;
+}
+
+img {
+   height:13vmin;
+   position:absolute;
+   top:0;
+   
+}
+
+.box {
+   height:127vmin;
+   width:100%;
+   display:flex;
+   justify-content:center;
+   align-items:center;
+   flex-direction:column;
+   
+}
+
+.form {
+    height: 90vmin;
+    width: 90vmin;
+    margin-top:2vmin;
+   
+    
+}
+
+input {
+    background: #F5F6F7;
+    outline: none;
+    border: 0.3vmin solid #E4E5E6;
+    border-bottom: 0.5vmin solid #CCCCCC;
+    border-radius:1.5vmin;
+    width:96%;
+    padding-left:3vmin;
+    font-size:4.5vmin;
+}
+
+.email {
+   height: 14vmin;
+   
+}
+
+.password {
+    height: 14vmin;
+   
+    margin-top: 2vmin;
+
+}
+
+.login {
+    width: 100%;
+    height: 14vmin;
+    background-color: #1877f2;
+    font-size: 5.5vmin;
+    font-weight: 600;
+    outline: none;
+    border: none;
+    border-radius: 1.5vmin;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 3vmin;
+}
+.login:hover{
+   background-color:#6EADFF;
+}
+.login:active{
+   border:0.5vmin solid #ECB140;
+   
+   
+ }
+
+#forgot-link {
+   text-decoration:none;
+   color:#1877f2;
+   font-size:4.5vmin;
+
+
+}
+#forgot-link:active {
+   border:0.5vmin solid #ECB140;
+}
+.forgot {
+  
+   margin-top:3vmin;
+}
+
+.or {
+    display: flex;
+    align-items: center;
+    margin-top:4vmin;
+}
+
+ .or::before,
+ .or::after {
+  content: "";
+  flex-grow:1;
+  height: 0.4vmin;
+  background-color: #ccc;
+ 
+        }
+
+.or-text {
+  color: #555;
+  font-size:4vmin;
+  font-weight:500;
+  margin:0 7vmin;
+ }
+
+.create {
+    height:10vmin;
+    width:80%;
+    background:transparent;
+    border:0.5vmin solid #ccc;
+    border-radius:1vmin;
+    outline:none;
+    margin-top:3vmin;
+    font-size:5vmin;
+}
+.create:hover{
+   background:rgba(0,190,0,0.5);
+   
+}
+
+
+.lang {
+    display:flex;
+    font-size:4vmin;
+    justify-content:space-evenly;
+    align-items:center;
+    height:20vh;
+    font-weight:500;
+   
+}
+
+li{ 
+   list-style:none;
+ 
+}
+li a{
+    color:#576B98;
+}
+ a{
+   text-decoration:none;
+}
+.selected-lang a {
+    color:#90949C;
+    font-weight:530;
+}
+
+span a{
+   font-size:6vmin;
+   color:#7F7F7F;
+}
+ul {
+    display:grid;
+    place-items:center;
+}
+ul span {
+  
+   border: 0.5vmin solid #3B5998;
+   text-align:center;
+   width:5vmin;
+   height:5vmin;
+   border-radius:1vmin;
+   display:flex;
+   justify-content:center;
+   align-items:center;
+   
+}
+
+#copy{
+   color:#90949C;
+   font-size:4vmin;
+}
